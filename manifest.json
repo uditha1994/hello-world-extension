@@ -3,7 +3,7 @@
     "name": "Back Color Changer",
     "version": "1.0.0",
     "description": "A simple tool to change webpages background color ",
-    "permission": [
+    "permissions": [
         "activeTab",
         "scripting"
     ],

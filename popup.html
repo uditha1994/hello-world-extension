@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Background Color Changer</h1>
+        <p>Click a color to change your webpage bacground</p>
+
+        <div class="color-grid">
+            <button class="color-btn" data-color="#ff6b6b" style="background-color: #ff6b6b;">Red</button>
+            <button class="color-btn" data-color="#4ecdc4" style="background-color: #4ecdc4;">Teal</button>
+            <button class="color-btn" data-color="#45b7d1" style="background-color: #45b7d1;">Blue</button>
+            <button class="color-btn" data-color="#96ceb4" style="background-color: #96ceb4;">Green</button>
+            <button class="color-btn" data-color="#ffeaa7" style="background-color: #ffeaa7;">Yellow</button>
+            <button class="color-btn" data-color="#dda0dd" style="background-color: #dda0dd;">Plum</button>
+        </div>
+
+        <div class="actions">
+            <button class="random-btn">Random Color</button>
+            <button class="reset-btn">Reset Background</button>
+        </div>
+
+        <div class="status" id="status"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
